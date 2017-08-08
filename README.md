@@ -1,5 +1,7 @@
 # Level Logger
 
+[![Build Status](https://travis-ci.org/DieProduktMacher/level-logger.svg?branch=master)](https://travis-ci.org/DieProduktMacher/level-logger)[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 A simple logger module wrapping the [`debug`](https://www.npmjs.com/package/debug) module.
 
 It generates an object containing logging functions provided through the [`debug`](https://www.npmjs.com/package/debug) for the following log levels:
@@ -29,3 +31,7 @@ log.warn('warning message')
 log.error('error message')
 log.fatal('fatal message')
 ```
+
+## License
+
+[MIT](./LICENSE)

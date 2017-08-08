@@ -4,7 +4,8 @@
   "description": "Logger for log levels",
   "main": "lib/index.js",
   "scripts": {
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -40,11 +41,7 @@
       "after",
       "afterEach",
       "it",
-      "xit",
-      "expect",
-      "assert",
-      "sinon",
-      "mockery"
+      "xit"
     ]
   }
 }
